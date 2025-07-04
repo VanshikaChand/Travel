@@ -14,82 +14,46 @@
 <body class=" bg-[url(images/index.jpg)] bg-size-[50%]">
 
   <section class=" topnav topnav">
-    <nav class="w-full flex justify-center p-3 bg-warning border border-warning rounded-e w-fit">
-      <ul class="nav nav-underline ">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="union" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">Union Territories
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="/union/Delhi/Delhi.html">Delhi
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/union/Chandigarh/Chandigarh.html">Chandigarh
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/union/Lakshadweep/Lakshadweep.html">Lakshadweep
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/union/Puducherry/Puducherry.html">Puducherry
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/union/Ladakh/Ladakh.html">Ladakh
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/union/Andaman/Andaman.html">Andaman and Nicobar Islands
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/union/Dadra/Dadra.html">Dadra and Nagar Haveli and Daman and Diu
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/union/Jammu/Jammu.html">Jammu and Kashmir
-              </a>
-            </li>
-          </ul>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="theme.html" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">Travel Theme
-          </a>
-          <ul class="dropdown-menu">
-            <a class="dropdown-item" href="/theme/adventure.html">Adventure
-            </a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="/theme/spirtual.html">Spiritual
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="/theme/heritage.html">Heritage
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="/theme/nature.html">Nature
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item" href="/theme/food.html">Food & Culture
-          </a>
-        </li>
-      </ul>
+    <!-- ✅ Fixed Simple Navbar with Bootstrap -->
+<nav class="navbar navbar-expand-lg bg-warning border border-warning shadow-sm sticky-top">
+  <div class="container justify-content-center">
+    <ul class="nav nav-underline">
+      <!-- Home -->
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link active fw-semibold text-dark" aria-current="page" href="index.html">Home</a>
       </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fw-semibold text-dark" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Union Territories
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/union/Delhi/Delhi.html">Delhi</a></li>
+          <li><a class="dropdown-item" href="/union/Chandigarh/Chandigarh.html">Chandigarh</a></li>
+          <li><a class="dropdown-item" href="/union/Lakshadweep/Lakshadweep.html">Lakshadweep</a></li>
+          <li><a class="dropdown-item" href="/union/Puducherry/Puducherry.html">Puducherry</a></li>
+          <li><a class="dropdown-item" href="/union/Ladakh/Ladakh.html">Ladakh</a></li>
+          <li><a class="dropdown-item" href="/union/Andaman/Andaman.html">Andaman and Nicobar Islands</a></li>
+          <li><a class="dropdown-item" href="/union/Dadra/Dadra.html">Dadra and Nagar Haveli and Daman and Diu</a></li>
+          <li><a class="dropdown-item" href="/union/Jammu/Jammu.html">Jammu and Kashmir</a></li>
+        </ul>
+      </li>
+
+      <!-- About Us -->
       <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact Us</a>
+        <a class="nav-link fw-semibold text-dark" href="about.html">About Us</a>
       </li>
-      </ul>
-    </nav>
+
+      <!-- Contact Us -->
+      <li class="nav-item">
+        <a class="nav-link fw-semibold text-dark" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
   </section>
   <br><br>
 
@@ -111,8 +75,8 @@
         class="btn btn-warning btn-lg animate__animated animate__bounceIn animate__delay-3s	3s"> EXPLORE
         INDIA</button></a>
   </main>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <footer class="bg-gray-800 text-white py-4">
+<br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer class="bg-gray-800 text-white py-4 mt-10">
 
     <p class=" text-center text-sm">© 2025 Explore INDIA | by Vanshika Chand</p>
     <audio src="images/homepage.mp3" autoplay loop></audio>
