@@ -55,7 +55,7 @@ To run the project:
 ## 👥 Contributors
 
 - 👩‍💻 **Developed by:** Vanshika Chand  
-- 🧑‍🏫 **Mentored by:** Kunal Upadhyaye Sir & Prateek Sir
+- 🧑‍🏫 **Mentored by:** Kunal Upadhyay Sir & Prateek Sir
 
 ---
 
