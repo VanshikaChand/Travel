@@ -52,6 +52,12 @@ To run the project:
 
 ---
 
+## 📸 Screenshots
+
+![Homepage Screenshot](./images/front%20ss.png)
+
+---
+
 ## 👥 Contributors
 
 - 👩‍💻 **Developed by:** Vanshika Chand  
